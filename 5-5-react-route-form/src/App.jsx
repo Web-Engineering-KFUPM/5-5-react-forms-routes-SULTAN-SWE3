@@ -2,7 +2,7 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Registration from "./pages/Registration";
-// TODO
+// TODO 1 & TODO 2 Done 
 export default function App() {
   const getNavClass = ({ isActive }) => `navlink${isActive ? " active" : ""}`;
 
