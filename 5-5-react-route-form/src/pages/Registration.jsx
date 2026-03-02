@@ -5,7 +5,7 @@ export default function Registration() {
   const [password, setPassword] = useState("");
   const [gender, setGender] = useState("");
   const [errors, setErrors] = useState({});
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
 

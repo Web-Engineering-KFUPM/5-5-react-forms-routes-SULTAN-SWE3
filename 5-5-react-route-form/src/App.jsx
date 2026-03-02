@@ -2,7 +2,7 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Registration from "./pages/Registration";
-
+// TODO
 export default function App() {
   const getNavClass = ({ isActive }) => `navlink${isActive ? " active" : ""}`;
 
@@ -33,7 +33,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <span>© {new Date().getFullYear()} React Student Portal</span>
+        <span>ï¿½ {new Date().getFullYear()} React Student Portal</span>
       </footer>
     </div>
   );
